@@ -29,3 +29,26 @@ Clone the repository:
 ```bash
 git clone https://github.com/your-username/your-repository-name.git
 cd your-repository-name
+🚀 How to Run
+
+Open the copy_of_text_to_video.py script.
+
+Modify the prompt variable to describe the video you want to create:
+
+prompt = "a majestic lion walking in slow motion across the savanna, cinematic lighting"
+
+
+Run the script from your terminal:
+
+python copy_of_text_to_video.py
+
+
+The script will:
+
+Download the necessary models
+
+Generate the video
+
+Save it as generated_video.mp4 in the same directory
+
+Display the video (if run in Jupyter or Colab)
